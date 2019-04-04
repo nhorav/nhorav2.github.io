@@ -1,0 +1,7 @@
+git init my-repo
+cd my-repo
+touch readme.md
+git add README.md
+git commit -m "add README to initial commit"
+git remote add origin https://github.com/nhorav/nhorav2.github.io.git
+git push --set-upstream origin master
